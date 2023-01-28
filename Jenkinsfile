@@ -22,7 +22,7 @@ pipeline {
                  echo 'Releeeeeeeease Stage'
             }
         }
-        stage('ZZZZZZ') {
+        stage('ZZZZ') {
             steps {
                  echo 'Releeeeeeeease Stage'
             }
