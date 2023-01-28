@@ -25,7 +25,7 @@ pipeline {
     }
     post{
       always{
-        emailext body: 'tESTING WEBHOOK git with email', subject: 'JENKINS', to: 'shettigar2699@gmail.com'
+        emailext body: 'TESTING WEBHOOK git with email', subject: 'JENKINS', to: 'shettigar2699@gmail.com'
       }
     }
 }
