@@ -9,12 +9,12 @@ pipeline {
         }
         stage('TEST') {
             steps {
-                 echo 'Testttttt Stage'
+                 echo 'Test Stage'
             }
         }
         stage('DEPLOY') {
             steps {
-                 echo 'Deployyyyy Stage'
+                 echo 'Deploy Stage'
             }
         }
         stage('RELEASE') {
